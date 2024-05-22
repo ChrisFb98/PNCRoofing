@@ -1,0 +1,350 @@
+html{
+    background-color: rgb(2,6,23);
+}
+
+.img-logo{
+    margin: 0.5rem;
+    width: 5rem;
+    height: 4.5rem;
+    border-radius: 10px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: none;
+    border-radius: 1.5rem;
+    background-image: url(/assets/IMG_1142.jpg);
+    background-position: center;
+    background-size:90rem;
+    opacity: 1;
+    /*color: white;*/
+    height: 50rem;
+}
+
+.title-items{
+    padding: 0;
+    margin-top: 0;
+    width:80rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    text-align: center;
+}
+
+.nav-bar .title{
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+}
+
+.header-nav-bar{
+    margin-bottom: 0;
+    font-size: 5.5rem;
+    color: white;
+}
+
+.text-nav-bar{
+    margin: 1.5rem;
+    color: rgb(203,213,225);
+    font-size: 1.5rem;
+}
+
+.call-button-nav-bar{
+    border-radius: 10px;
+    border: none;
+    height: 6rem;
+    width: 14rem;
+    background-color: rgb(40, 109, 200);
+    color: white;
+    font-size: 1rem;
+}    
+
+.five-star-logo{
+    width: 6rem;
+    height: 5rem;
+}
+
+.five-star-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.customer-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.roofing-services{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(2,6,23);
+    color: white;
+    font-size: 2rem;
+}
+
+.title-roofing-services{
+    margin: 2rem;
+    padding: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.text-roofing-services{
+    font-size: 1.5rem;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2,6,23);
+    color: white;
+}
+
+.service-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.service-1-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-service-1{
+    border-radius: 10px;
+    margin: 2rem;
+    width: 50rem;
+    height: 30rem;
+}
+
+.title-service-1{
+    font-size: 3rem;
+}
+
+.text-service-1{
+    font-size: 1.25rem;   
+}
+
+.service-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.service-2-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-service-2{
+    border-radius: 10px;
+    margin: 2rem;
+    width: 50rem;
+    height: 30rem;
+}
+
+.title-service-2{
+    font-size: 3rem;
+}
+
+.text-service-2{
+    font-size: 1.25rem;   
+}
+
+.img-service-2{
+    width: 50rem;
+    height: 30rem;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.service-3{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.service-3-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-service-3{
+    border-radius: 10px;
+    margin: 2rem;
+    width: 50rem;
+    height: 30rem;
+}
+
+.title-service-3{
+    font-size: 3rem;
+}
+
+.text-service-3{
+    font-size: 1.25rem;   
+}
+
+.customers-reviews{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32,89,165);
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    height: 20rem;
+    justify-content: center;
+}
+
+.customer-review{
+    font-size: 2rem;
+    width: 60%;
+    text-align: center;
+}
+
+.customer-description{
+    display: flex;
+    flex-direction: row;
+}
+.img-customer{
+    width: 3rem;
+    height: 3rem;
+    border: solid 2px;
+    border-radius: 100%;
+    margin: 0.5rem;
+}
+
+.customers-name{
+    font-size: 1.25rem;
+}
+
+.questions{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.questions .title{
+    color: white;
+    font-size: 3rem;
+}
+
+.q-n-a-1{
+    color: rgb(97,105,119);
+}
+
+.q-n-a-2{
+    color: rgb(97,105,119);
+    width: 80%;
+}
+
+.question-1 , .question-2{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-section{
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56,90,15);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.img-team{
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid rgb(40, 109, 200);
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+.call-title{
+    font-size: 3rem;
+}
+
+.call-text{
+    color: rgb(203,213,225);
+    font-size: 1.25rem;
+}
+
+.call-button-2{
+    width: 15rem;
+    height: 3rem;
+    background-color: rgb(40, 109, 200);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.mission-vision{
+    margin: 4rem 0 8rem 0;
+    background-color: rgb(16,23,42) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-vision .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.founder-info{
+    background-color: rgb(49,63,82);
+    color: white;
+    padding: 2rem;
+    margin: 2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.info-text{
+    margin-bottom: 2.5rem;
+}
+
+.founders-name , .role{
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(16,23,42);
+    color: greenyellow;
+    height: 10rem;
+}
+
+.social-media{
+    margin: 2rem;
+}
+
+.social-logo{
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
