@@ -1,5 +1,13 @@
 html{
+    margin: 1rem;
+    display: flex;
     background-color: rgb(2,6,23);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .img-logo{
